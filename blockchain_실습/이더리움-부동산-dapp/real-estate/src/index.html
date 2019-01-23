@@ -29,8 +29,41 @@
       <div class="row" id="list">
         <!-- 매물 리스트 -->
       </div>
-    </div>   
-    
+    </div>
+    <div id = "templates" style = "display: none;">
+      <div class = "col-sm-l col-md-4 col-lg-3">
+        <div class = "panel panel-success panel-realEstate">
+          <div class = "panel-heading">
+            <h3 class = "panel-title">매물</h3>
+            </div>
+            <div class = "panel-body">
+              <img style = "width:100%;"" src="">
+            <br/> <br/>
+            <strong>아이디</strong>: <span class="id"></span><br/>
+            <strong>종류</strong>: <span class="type"></span><br/>
+            <strong>면적(m2)</strong>: <span class="area"></span><br/>
+            <strong>가격(eth)</strong>: <span class="price"></span><br/>
+            <button class = "btn btn-info btn-buy"
+                    type = "button"
+                    data-toggle = "model"
+                    data-target = "#buyModel">
+                  매입
+                </button>
+            <button class = "btn btn-info btn-buyerInfo"
+                    type = "button"
+                    data-toggle = "model"
+                    data-target = "#buyerInfoModel"
+                    style = "display : none;">
+                  매입자 정보
+            </button>
+          </div>
+        </div>>
+      </div>
+    </div>
+
+
+
+    </div>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
